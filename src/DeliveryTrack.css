@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tracker {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #2b2b2b;
+}
+
+.tracking-title {
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 12px 0;
+    border: 1px solid rgba(0,0,0,.2);
+    background-color: #f8f8f8;
+}
+
+.tracking-illustration {
+    height: 250px;
+    background-image: url('/src/delivery-track.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-left: 1px solid rgba(0,0,0,.2);
+    border-right: 1px solid rgba(0,0,0,.2);
+}
+
+.tracking-detail {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.tracking-list {
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    padding: 10px 0;
+}
+
+.tracking-list:last-child {
+    border-bottom: none;
+}
+
+.tracking-list .loc {
+    width: 30%;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.tracking-list .desc {
+    width: 70%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.tracking-list .desc__short, .loc__name {
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.tracking-list .desc__long, .loc__time {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.tracking-info-title {
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 12px 0;
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.tracking-info {
+    border-left: 1px solid rgba(0,0,0,.2);
+    border-right: 1px solid rgba(0,0,0,.2);
+}
+
+.tracking-info .tracking-info-list {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    padding: 12px 0;
+    text-align: left;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.tracking-info .tracking-info-list h4 {
+    width: 20%;
+    margin-left: 10px;
+    border-right: 1px solid rgba(0,0,0,.2);
+}
+
+.tracking-info .tracking-info-list p {
+    margin-left: 30px;
+}

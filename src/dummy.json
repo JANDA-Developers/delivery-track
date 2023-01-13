@@ -1,0 +1,109 @@
+{
+    "from": {
+        "name": "두인*",
+        "time": "2022-12-24T15:30:00+09:00"
+    },
+    "to": {
+        "name": "조*민",
+        "time": "2022-12-24T15:30:00+09:00"
+    },
+    "state": {
+        "id": "delivered",
+        "text": "배송완료"
+    },
+    "progresses": [
+        {
+            "time": "2022-12-28T13:40:00+09:00",
+            "location": {
+                "name": "해운대남(집)"
+            },
+            "status": {
+                "id": "delivered",
+                "text": "배송완료"
+            },
+            "description": "배송완료 되었습니다.(배송사원 : 주태환 010-8871-1946)"
+            },
+            {
+            "time": "2022-12-28T10:23:00+09:00",
+            "location": {
+                "name": "해운대남(집)"
+            },
+            "status": {
+                "id": "out_for_delivery",
+                "text": "배송출발"
+            },
+            "description": "배송출발 하였습니다.(배송사원 : 주태환 010-8871-1946)"
+        },
+        {
+            "time": "2022-12-28T07:10:00+09:00",
+            "location": {
+                "name": "북부산터미널"
+        },
+            "status": {
+                "id": "in_transit",
+                "text": "이동중"
+        },
+            "description": "배송원이 배송준비중 입니다."
+        },
+        {
+            "time": "2022-12-28T07:07:00+09:00",
+            "location": {
+                "name": "남부산터미널"
+            },
+            "status": {
+                "id": "in_transit",
+                "text": "이동중"
+        },
+            "description": "배송원이 배송준비중 입니다."
+        },
+        {
+            "time": "2022-12-28T07:07:00+09:00",
+            "location": {
+                "name": "남부산터미널"
+        },
+            "status": {
+                "id": "in_transit",
+                "text": "이동중"
+            },
+        "description": "남부산터미널에 도착하였습니다."
+        },
+        {
+            "time": "2022-12-27T22:38:00+09:00",
+            "location": {
+                "name": "동서울터미널"
+            },
+        "status": {
+            "id": "in_transit",
+            "text": "이동중"
+        },
+        "description": "동서울터미널에 도착하였습니다."
+        },
+        {
+            "time": "2022-12-27T22:05:00+09:00",
+            "location": {
+                "name": "동서울터미널"
+            },
+            "status": {
+                "id": "in_transit",
+                "text": "이동중"
+            },
+            "description": "동서울터미널에서 동부산터미널로 이동중 입니다."
+        },
+        {
+            "time": "2022-12-24T15:30:00+09:00",
+            "location": {
+                "name": "은평터미널"
+            },
+            "status": {
+                "id": "at_pickup",
+                "text": "상품인수"
+            },
+            "description": "고객님 상품을 집하하여 은평터미널에 입고되었습니다."
+        }
+    ],
+    "carrier": {
+        "id": "531104196663",
+        "name": "한진택배",
+        "tel": "+8215880011"
+    }
+}
